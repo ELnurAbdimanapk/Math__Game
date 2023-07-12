@@ -71,10 +71,16 @@ button {
     cursor: pointer;
     transition: background 0.5s;
     margin-top: 20px;
-    margin-bottom: 250px;
     height: 60px;
     width: 300px;
 
+}
+.score{
+    margin-bottom: 250px;
+    color: #94ff08;
+}
+#win {
+    margin-left: 20px;
 }
 input {
     width: 60px;
