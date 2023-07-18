@@ -12,21 +12,35 @@
 </head>
 <body>
     <header>
+        <div id="name">
+            <input id="nameInput" placeholder="Enter Your Name" type="text">
+        </div>
+        <div>
+            <h1 >Welcome <span id="username"></span>! </h1>
+
             <h1>Math Playground</h1>
             <p>Give your Brain a Workout</p>
-
+        </div>
+            <div class="rejim">
+              <button id="practice">Practice</button>
+              <button id="time-attack">Time Attack</button>
+              <div id="timer"></div>
+            </div>
     </header>
+    
      <div class="container">
             <main>
                 <div class="math-problem">
                     <span id="first__operand"></span><span id="operator"></span><span id="second__operand"></span><span>=</span><input class="answer" id="answer" type="number" value="">
                 </div>
             </main>
-        </div>
+    </div>
     <button id="submit" type="submit">Check</button>
     <div class="action__container">
         <div id="action"></div>
     </div>
+    <button id="stop">Stop</button>
+
     <h1 class="score">Score:<span id="win"></span></h1>
     <footer>
             <p>2023 &copy; Elnura Abdimanap kyzy </p>
